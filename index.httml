@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickCash Loans Kenya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>QuickCash Loans Kenya</h1>
+  <p>Fast and secure mobile loans directly to M-Pesa</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#eligibility">Eligibility</a>
+  <a href="#terms">Terms</a>
+  <a href="#apply">Apply</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    QuickCash Loans provides fast and convenient digital loans for Kenyan residents.
+    Funds are sent directly to your M-Pesa account after approval.
+  </p>
+</section>
+
+<section id="eligibility">
+  <h2>Eligibility</h2>
+
+  <ul>
+    <li>Must be 18 years and above</li>
+    <li>Must have a valid Kenyan ID</li>
+    <li>Must have an active M-Pesa account</li>
+    <li>Must provide accurate information</li>
+  </ul>
+</section>
+
+<section id="terms">
+  <h2>Terms & Conditions</h2>
+
+  <p>
+    By applying for a loan, you agree to our lending policies and repayment procedures.
+  </p>
+
+  <ul>
+    <li>Loans are subject to approval.</li>
+    <li>Late repayment may attract penalties.</li>
+    <li>False information may lead to rejection.</li>
+    <li>User data is protected under Kenya data protection laws.</li>
+    <li>Loan limits depend on repayment history.</li>
+  </ul>
+</section>
+
+<section id="apply">
+  <h2>Loan Application Form</h2>
+
+  <form onsubmit="submitForm(event)">
+
+    <input type="text" placeholder="Full Name" required>
+
+    <input type="text" placeholder="National ID Number" required>
+
+    <input type="tel" placeholder="Phone Number" required>
+
+    <input type="number" placeholder="Loan Amount Needed" required>
+
+    <select required>
+      <option value="">Select Repayment Period</option>
+      <option>30 Days</option>
+      <option>60 Days</option>
+      <option>90 Days</option>
+    </select>
+
+    <textarea placeholder="Reason for Loan"></textarea>
+
+    <button type="submit">Submit Application</button>
+
+  </form>
+
+  <p id="message"></p>
+
+</section>
+
+<footer>
+  <p>© 2026 QuickCash Loans Kenya</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
